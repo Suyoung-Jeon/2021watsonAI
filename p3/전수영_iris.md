@@ -22,7 +22,7 @@ pred_y=uu@www+bbb 설명 3: 중간 레이어를 2번 거치면 학습 손실을 
 
 mse=tf.reduce_mean(tf.square(y-pred_y)) 설명 4: 실제 값인 y와 오류 값인 pred_y 차인 오차를 제곱하여 평균을 구한 평균제곱오차를 mse에 넣음
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.001) 
-train_op=optimizer.minimize(mse)  설명 5:오류를 최소하하기 위하여 학습률을 0.001로 한 선형하강법을 한 결과를 담은 optimizer의 최소 값을 train_op로 삽입  
+train_op=optimizer.minimize(mse)  설명 5:오류를 최소하하기 위하여 학습률을 0.001로 한 경사하강법을 한 결과를 담은 optimizer의 최소 값을 train_op로 삽입  
 
 costs=[]
 
