@@ -1,0 +1,10 @@
+C:\Users\전수영\Desktop>curl -X GET -u "apikey:Ac2bryYhDFbOsytnQwoR30WIRElcW6zS1jwHJvw248k3" --output TTS.wav "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?accept=audio%2Fwav&text=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94%21%20%EC%A0%84%EC%88%98%EC%98%81%EC%9E%85%EB%8B%88%EB%8B%A4&voice=ko-KR_YunaVoice"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 82862    0 82862    0     0  82862      0 --:--:--  0:00:01 --:--:-- 58271
+C:\Users\전수영>dir *.wav
+ C:\Users\전수영 디렉터리
+
+2021-05-05  오후 06:56            82,862 TTS.wav
+               1개 파일              82,862 바이트
+               0개 디렉터리  286,899,576,832 바이트 남음
